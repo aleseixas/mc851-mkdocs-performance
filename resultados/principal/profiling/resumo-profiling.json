@@ -1,0 +1,1685 @@
+[
+  {
+    "scenario": "C",
+    "pages": 500,
+    "search": true,
+    "instrumented_total_s": 20.04170900000002,
+    "top_functions": [
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.exec>",
+        "primitive_calls": 1,
+        "calls": 266,
+        "self_s": 0.009144300000000001,
+        "cumulative_s": 20.0799786
+      },
+      {
+        "file": "<frozen runpy>",
+        "line": 201,
+        "function": "run_module",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.8500000000000002e-05,
+        "cumulative_s": 20.079814300000002
+      },
+      {
+        "file": "<frozen runpy>",
+        "line": 65,
+        "function": "_run_code",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.0300000000000001e-05,
+        "cumulative_s": 20.076518500000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/__main__.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.00030700000000000004,
+        "cumulative_s": 20.0764278
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1651,
+        "function": "__call__",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.3000000000000001e-05,
+        "cumulative_s": 19.818714200000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1483,
+        "function": "main",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 8.75e-05,
+        "cumulative_s": 19.8187012
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 2020,
+        "function": "invoke",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 4.0900000000000005e-05,
+        "cumulative_s": 19.813980700000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1400,
+        "function": "invoke",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 2.09e-05,
+        "cumulative_s": 19.8043921
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 861,
+        "function": "invoke",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 3.46e-05,
+        "cumulative_s": 19.804371200000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/__main__.py",
+        "line": 275,
+        "function": "build_command",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 8.32e-05,
+        "cumulative_s": 19.8042906
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 249,
+        "function": "build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0104718,
+        "cumulative_s": 19.460584
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 185,
+        "function": "_build_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.023836000000000003,
+        "cumulative_s": 10.4870716
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 147,
+        "function": "_populate_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0096489,
+        "cumulative_s": 8.4114018
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 263,
+        "function": "render",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0197464,
+        "cumulative_s": 8.0520411
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/core.py",
+        "line": 322,
+        "function": "convert",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0327269,
+        "cumulative_s": 7.5094373
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'join' of 'str' objects>",
+        "primitive_calls": 67484,
+        "calls": 329770,
+        "self_s": 0.5337166,
+        "cumulative_s": 6.991364300000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/jinja2/environment.py",
+        "line": 1275,
+        "function": "render",
+        "primitive_calls": 502,
+        "calls": 502,
+        "self_s": 0.0036062000000000004,
+        "cumulative_s": 6.974588000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/main.html",
+        "line": 4,
+        "function": "root",
+        "primitive_calls": 1570503,
+        "calls": 1570503,
+        "self_s": 0.5207569000000001,
+        "cumulative_s": 6.3664487
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/base.html",
+        "line": 4,
+        "function": "root",
+        "primitive_calls": 1573616,
+        "calls": 1573616,
+        "self_s": 0.555755,
+        "cumulative_s": 5.881126
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/base.html",
+        "line": 339,
+        "function": "block_site_nav",
+        "primitive_calls": 1505003,
+        "calls": 1505003,
+        "self_s": 0.8103207,
+        "cumulative_s": 4.6198842
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 348,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.1896515,
+        "cumulative_s": 3.3342102000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 120,
+        "function": "__handleInline",
+        "primitive_calls": 25000,
+        "calls": 28000,
+        "self_s": 0.3402605,
+        "cumulative_s": 2.9280107
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/templates.py",
+        "line": 37,
+        "function": "url_filter",
+        "primitive_calls": 257009,
+        "calls": 257009,
+        "self_s": 0.31432740000000003,
+        "cumulative_s": 2.3221758
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/plugins.py",
+        "line": 551,
+        "function": "run_event",
+        "primitive_calls": 3014,
+        "calls": 3014,
+        "self_s": 0.014897200000000001,
+        "cumulative_s": 2.1931144000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/plugins.py",
+        "line": 640,
+        "function": "on_page_context",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0016536,
+        "cumulative_s": 2.0830664000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 91,
+        "function": "on_page_context",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.004462000000000001,
+        "cumulative_s": 2.072935
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 55,
+        "function": "add_entry_from_context",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0119141,
+        "cumulative_s": 2.068473
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 253,
+        "function": "__applyPattern",
+        "primitive_calls": 353000,
+        "calls": 383000,
+        "self_s": 1.3239959000000001,
+        "cumulative_s": 2.0342990000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/jinja2/environment.py",
+        "line": 485,
+        "function": "getattr",
+        "primitive_calls": 1065543,
+        "calls": 1065543,
+        "self_s": 0.3909924,
+        "cumulative_s": 1.7376418
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/__init__.py",
+        "line": 205,
+        "function": "normalize_url",
+        "primitive_calls": 257511,
+        "calls": 257511,
+        "self_s": 0.35088830000000004,
+        "cumulative_s": 1.6394183
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 100,
+        "function": "parseDocument",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0039935000000000005,
+        "cumulative_s": 1.5128872
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 120,
+        "function": "parseChunk",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0014061000000000002,
+        "cumulative_s": 1.5075524
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 138,
+        "function": "parseBlocks",
+        "primitive_calls": 500,
+        "calls": 6500,
+        "self_s": 0.23210760000000003,
+        "cumulative_s": 1.4994198
+      },
+      {
+        "file": "<PYTHON>/Lib/html/parser.py",
+        "line": 146,
+        "function": "feed",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0032054,
+        "cumulative_s": 1.4632348000000002
+      },
+      {
+        "file": "<PYTHON>/Lib/html/parser.py",
+        "line": 223,
+        "function": "goahead",
+        "primitive_calls": 1000,
+        "calls": 1000,
+        "self_s": 0.2808312,
+        "cumulative_s": 1.4602510000000002
+      }
+    ],
+    "selected_functions": [
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 249,
+        "function": "build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0104718,
+        "cumulative_s": 19.460584
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 185,
+        "function": "_build_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.023836000000000003,
+        "cumulative_s": 10.4870716
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 147,
+        "function": "_populate_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0096489,
+        "cumulative_s": 8.4114018
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 263,
+        "function": "render",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0197464,
+        "cumulative_s": 8.0520411
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 91,
+        "function": "on_page_context",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.004462000000000001,
+        "cumulative_s": 2.072935
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 55,
+        "function": "add_entry_from_context",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0119141,
+        "cumulative_s": 2.068473
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 48,
+        "function": "_add_entry",
+        "primitive_calls": 4000,
+        "calls": 4000,
+        "self_s": 0.0124013,
+        "cumulative_s": 0.5423836000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 90,
+        "function": "url",
+        "primitive_calls": 510497,
+        "calls": 510497,
+        "self_s": 0.3595256,
+        "cumulative_s": 0.367674
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 208,
+        "function": "read_source",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.009296500000000001,
+        "cumulative_s": 0.3326026
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 353,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0176718,
+        "cumulative_s": 0.3265787
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 419,
+        "function": "path_to_url",
+        "primitive_calls": 3000,
+        "calls": 3000,
+        "self_s": 0.0366055,
+        "cumulative_s": 0.3031087
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 81,
+        "function": "create_entry_for_section",
+        "primitive_calls": 3500,
+        "calls": 3500,
+        "self_s": 0.010715200000000001,
+        "cumulative_s": 0.2777217
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0001077,
+        "cumulative_s": 0.23056520000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 91,
+        "function": "_build_theme_template",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 0.0003086,
+        "cumulative_s": 0.2152216
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 61,
+        "function": "_build_template",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 0.0001247,
+        "cumulative_s": 0.18472490000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 227,
+        "function": "title",
+        "primitive_calls": 251999,
+        "calls": 251999,
+        "self_s": 0.16997990000000002,
+        "cumulative_s": 0.16997990000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 204,
+        "function": "handle_data",
+        "primitive_calls": 55500,
+        "calls": 55500,
+        "self_s": 0.06561310000000001,
+        "cumulative_s": 0.1169352
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 95,
+        "function": "on_post_build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0023339000000000003,
+        "cumulative_s": 0.1035003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 556,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0019312,
+        "cumulative_s": 0.078336
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 95,
+        "function": "generate_search_index",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 2.4100000000000003e-05,
+        "cumulative_s": 0.0753458
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.00011740000000000001,
+        "cumulative_s": 0.0700969
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 381,
+        "function": "_possible_target_uris",
+        "primitive_calls": 6000,
+        "calls": 6000,
+        "self_s": 0.0076649000000000005,
+        "cumulative_s": 0.06861940000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 113,
+        "function": "active",
+        "primitive_calls": 250500,
+        "calls": 250500,
+        "self_s": 0.06406300000000001,
+        "cumulative_s": 0.06406300000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 375,
+        "function": "_target_uri",
+        "primitive_calls": 3000,
+        "calls": 3000,
+        "self_s": 0.0101209,
+        "cumulative_s": 0.0609545
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 29,
+        "function": "get_context",
+        "primitive_calls": 502,
+        "calls": 502,
+        "self_s": 0.012207200000000001,
+        "cumulative_s": 0.0590156
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 36,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0023145,
+        "cumulative_s": 0.056221600000000004
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 161,
+        "function": "_set_canonical_url",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0017728000000000002,
+        "cumulative_s": 0.043135700000000006
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 527,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0039078,
+        "cumulative_s": 0.0339508
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 333,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0162681,
+        "cumulative_s": 0.025743500000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 180,
+        "function": "handle_starttag",
+        "primitive_calls": 34000,
+        "calls": 34000,
+        "self_s": 0.0204252,
+        "cumulative_s": 0.0234841
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 35,
+        "function": "_find_toc_by_id",
+        "primitive_calls": 3500,
+        "calls": 14000,
+        "self_s": 0.014269200000000001,
+        "cumulative_s": 0.017696700000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 196,
+        "function": "handle_endtag",
+        "primitive_calls": 34000,
+        "calls": 34000,
+        "self_s": 0.0125047,
+        "cumulative_s": 0.0125047
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 9.59e-05,
+        "cumulative_s": 0.011408300000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 518,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0005434,
+        "cumulative_s": 0.0112826
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 172,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0037529000000000004,
+        "cumulative_s": 0.0095828
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 7.54e-05,
+        "cumulative_s": 0.0092718
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 541,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0032614000000000002,
+        "cumulative_s": 0.009200900000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 342,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0006452000000000001,
+        "cumulative_s": 0.0063797
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 134,
+        "function": "is_homepage",
+        "primitive_calls": 2001,
+        "calls": 2001,
+        "self_s": 0.0030540000000000003,
+        "cumulative_s": 0.0053896000000000005
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 223,
+        "function": "stripped_html",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0005997,
+        "cumulative_s": 0.003621
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 534,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0007761,
+        "cumulative_s": 0.003167
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 563,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0006253000000000001,
+        "cumulative_s": 0.0027785
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 118,
+        "function": "active",
+        "primitive_calls": 1500,
+        "calls": 1500,
+        "self_s": 0.0025971,
+        "cumulative_s": 0.0025971
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 347,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0023809,
+        "cumulative_s": 0.0023809
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 148,
+        "function": "__init__",
+        "primitive_calls": 3500,
+        "calls": 3500,
+        "self_s": 0.0019043,
+        "cumulative_s": 0.0019043
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 523,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0014431000000000001,
+        "cumulative_s": 0.0017321
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 125,
+        "function": "is_index",
+        "primitive_calls": 2001,
+        "calls": 2001,
+        "self_s": 0.0011972,
+        "cumulative_s": 0.0011972
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 330,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0009563000000000001,
+        "cumulative_s": 0.0009563000000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 304,
+        "function": "validate_anchor_links",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0001674,
+        "cumulative_s": 0.0001674
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 171,
+        "function": "_set_edit_url",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0001531,
+        "cumulative_s": 0.0001531
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 34,
+        "function": "run_validation",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1e-05,
+        "cumulative_s": 0.00011700000000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 26,
+        "function": "get_lunr_supported_lang",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 2.79e-05,
+        "cumulative_s": 0.0001061
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 54,
+        "function": "_PluginConfig",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.7300000000000005e-05,
+        "cumulative_s": 0.00010570000000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 65,
+        "function": "on_config",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.66e-05,
+        "cumulative_s": 5.6200000000000004e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 568,
+        "function": "_AbsoluteLinksValidationValue",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 6.7e-06,
+        "cumulative_s": 5.11e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 35,
+        "function": "Page",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 4.1500000000000006e-05,
+        "cumulative_s": 4.53e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 87,
+        "function": "on_pre_build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.88e-05,
+        "cumulative_s": 2.9400000000000003e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 346,
+        "function": "_RelativePathTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 2.61e-05,
+        "cumulative_s": 2.61e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 25,
+        "function": "SearchIndex",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.48e-05,
+        "cumulative_s": 1.48e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 165,
+        "function": "ContentParser",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.0700000000000001e-05,
+        "cumulative_s": 1.0700000000000001e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 162,
+        "function": "<genexpr>",
+        "primitive_calls": 7,
+        "calls": 7,
+        "self_s": 8.200000000000001e-06,
+        "cumulative_s": 8.200000000000001e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 329,
+        "function": "_ExtractAnchorsTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 5.1e-06,
+        "cumulative_s": 5.1e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 62,
+        "function": "SearchPlugin",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 4.000000000000001e-06,
+        "cumulative_s": 4.000000000000001e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 522,
+        "function": "_RawHTMLPreprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.9e-06,
+        "cumulative_s": 3.9e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 552,
+        "function": "_ExtractTitleTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.8e-06,
+        "cumulative_s": 3.8e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 142,
+        "function": "ContentSection",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.7e-06,
+        "cumulative_s": 3.7e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/__init__.py",
+        "line": 23,
+        "function": "LangOption",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.5000000000000004e-06,
+        "cumulative_s": 3.5000000000000004e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 540,
+        "function": "_HTMLHandler",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 2.8000000000000003e-06,
+        "cumulative_s": 2.8000000000000003e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/contrib/search/search_index.py",
+        "line": 31,
+        "function": "__init__",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.6000000000000001e-06,
+        "cumulative_s": 1.6000000000000001e-06
+      }
+    ],
+    "command": [
+      "<EXECUCAO_LOCAL>/venv/Scripts/python.exe",
+      "-m",
+      "cProfile",
+      "-o",
+      "<PROJETO>/resultados/principal/profiling/C.prof",
+      "-m",
+      "mkdocs",
+      "build",
+      "--clean",
+      "--strict",
+      "-f",
+      "<EXECUCAO_LOCAL>/trabalho/corpus-500/C.yml",
+      "-d",
+      "<EXECUCAO_LOCAL>/trabalho/sites/profile-C"
+    ],
+    "warning": "Tempos instrumentados de diagnóstico; não comparar diretamente com o benchmark e não somar tempos cumulativos de funções aninhadas"
+  },
+  {
+    "scenario": "D",
+    "pages": 500,
+    "search": false,
+    "instrumented_total_s": 18.323646199999995,
+    "top_functions": [
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.exec>",
+        "primitive_calls": 1,
+        "calls": 259,
+        "self_s": 0.0100662,
+        "cumulative_s": 18.3390573
+      },
+      {
+        "file": "<frozen runpy>",
+        "line": 201,
+        "function": "run_module",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.83e-05,
+        "cumulative_s": 18.338924300000002
+      },
+      {
+        "file": "<frozen runpy>",
+        "line": 65,
+        "function": "_run_code",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.2600000000000001e-05,
+        "cumulative_s": 18.335629400000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/__main__.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.00033420000000000005,
+        "cumulative_s": 18.335527300000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1651,
+        "function": "__call__",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.76e-05,
+        "cumulative_s": 18.072014300000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1483,
+        "function": "main",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 7.15e-05,
+        "cumulative_s": 18.0719967
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 2020,
+        "function": "invoke",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 4.2000000000000004e-05,
+        "cumulative_s": 18.0672593
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 1400,
+        "function": "invoke",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 1.8200000000000002e-05,
+        "cumulative_s": 18.060418300000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/click/core.py",
+        "line": 861,
+        "function": "invoke",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 3.08e-05,
+        "cumulative_s": 18.060400100000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/__main__.py",
+        "line": 275,
+        "function": "build_command",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 7.58e-05,
+        "cumulative_s": 18.0603237
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 249,
+        "function": "build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0107843,
+        "cumulative_s": 17.7199347
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 147,
+        "function": "_populate_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.011800300000000001,
+        "cumulative_s": 9.1139709
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 263,
+        "function": "render",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.023242500000000003,
+        "cumulative_s": 8.726094100000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 185,
+        "function": "_build_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.026075900000000003,
+        "cumulative_s": 8.126685
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/core.py",
+        "line": 322,
+        "function": "convert",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.037611000000000006,
+        "cumulative_s": 8.105180800000001
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<method 'join' of 'str' objects>",
+        "primitive_calls": 62843,
+        "calls": 323610,
+        "self_s": 0.5530692,
+        "cumulative_s": 7.137705400000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/jinja2/environment.py",
+        "line": 1275,
+        "function": "render",
+        "primitive_calls": 502,
+        "calls": 502,
+        "self_s": 0.0035514,
+        "cumulative_s": 7.124198900000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/main.html",
+        "line": 4,
+        "function": "root",
+        "primitive_calls": 1561503,
+        "calls": 1561503,
+        "self_s": 0.5456362,
+        "cumulative_s": 6.4853696
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/base.html",
+        "line": 4,
+        "function": "root",
+        "primitive_calls": 1564598,
+        "calls": 1564598,
+        "self_s": 0.5774112,
+        "cumulative_s": 5.9659304
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/themes/mkdocs/base.html",
+        "line": 339,
+        "function": "block_site_nav",
+        "primitive_calls": 1505003,
+        "calls": 1505003,
+        "self_s": 0.8390401000000001,
+        "cumulative_s": 4.754949300000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 348,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.18912420000000002,
+        "cumulative_s": 3.5818814000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 120,
+        "function": "__handleInline",
+        "primitive_calls": 25000,
+        "calls": 28000,
+        "self_s": 0.36748590000000003,
+        "cumulative_s": 3.1465161000000004
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/templates.py",
+        "line": 37,
+        "function": "url_filter",
+        "primitive_calls": 256508,
+        "calls": 256508,
+        "self_s": 0.32059540000000003,
+        "cumulative_s": 2.3996396
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/treeprocessors.py",
+        "line": 253,
+        "function": "__applyPattern",
+        "primitive_calls": 353000,
+        "calls": 383000,
+        "self_s": 1.4128307,
+        "cumulative_s": 2.1833487000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/jinja2/environment.py",
+        "line": 485,
+        "function": "getattr",
+        "primitive_calls": 1065543,
+        "calls": 1065543,
+        "self_s": 0.39887,
+        "cumulative_s": 1.7691319
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/__init__.py",
+        "line": 205,
+        "function": "normalize_url",
+        "primitive_calls": 256508,
+        "calls": 256508,
+        "self_s": 0.3529407,
+        "cumulative_s": 1.6915376000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 100,
+        "function": "parseDocument",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0048349000000000005,
+        "cumulative_s": 1.6366740000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 120,
+        "function": "parseChunk",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0015972,
+        "cumulative_s": 1.6302342
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/blockparser.py",
+        "line": 138,
+        "function": "parseBlocks",
+        "primitive_calls": 500,
+        "calls": 6500,
+        "self_s": 0.2485033,
+        "cumulative_s": 1.6214510000000002
+      },
+      {
+        "file": "~",
+        "line": 0,
+        "function": "<built-in method builtins.getattr>",
+        "primitive_calls": 1102975,
+        "calls": 1102987,
+        "self_s": 0.6819598,
+        "cumulative_s": 1.3791948
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/__init__.py",
+        "line": 177,
+        "function": "get_relative_url",
+        "primitive_calls": 259499,
+        "calls": 259499,
+        "self_s": 0.9441789,
+        "cumulative_s": 1.2863809000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/utils/__init__.py",
+        "line": 126,
+        "function": "write_file",
+        "primitive_calls": 502,
+        "calls": 502,
+        "self_s": 0.0088859,
+        "cumulative_s": 1.0165731
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/extensions/toc.py",
+        "line": 387,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.14598170000000002,
+        "cumulative_s": 0.9674337000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/serializers.py",
+        "line": 237,
+        "function": "to_xhtml_string",
+        "primitive_calls": 5000,
+        "calls": 5000,
+        "self_s": 0.0199779,
+        "cumulative_s": 0.747444
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/markdown/serializers.py",
+        "line": 220,
+        "function": "_write_html",
+        "primitive_calls": 5000,
+        "calls": 5000,
+        "self_s": 0.0117471,
+        "cumulative_s": 0.7238029
+      }
+    ],
+    "selected_functions": [
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 249,
+        "function": "build",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.0107843,
+        "cumulative_s": 17.7199347
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 147,
+        "function": "_populate_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.011800300000000001,
+        "cumulative_s": 9.1139709
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 263,
+        "function": "render",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.023242500000000003,
+        "cumulative_s": 8.726094100000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 185,
+        "function": "_build_page",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.026075900000000003,
+        "cumulative_s": 8.126685
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 90,
+        "function": "url",
+        "primitive_calls": 508997,
+        "calls": 508997,
+        "self_s": 0.3566279,
+        "cumulative_s": 0.364533
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 208,
+        "function": "read_source",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.010431900000000001,
+        "cumulative_s": 0.3571712
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 353,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.020054500000000003,
+        "cumulative_s": 0.3555989
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 419,
+        "function": "path_to_url",
+        "primitive_calls": 3000,
+        "calls": 3000,
+        "self_s": 0.0417328,
+        "cumulative_s": 0.32882290000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 9e-05,
+        "cumulative_s": 0.25147040000000004
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 91,
+        "function": "_build_theme_template",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 0.0003658,
+        "cumulative_s": 0.2327789
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 61,
+        "function": "_build_template",
+        "primitive_calls": 2,
+        "calls": 2,
+        "self_s": 0.0001562,
+        "cumulative_s": 0.19717020000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 227,
+        "function": "title",
+        "primitive_calls": 251499,
+        "calls": 251499,
+        "self_s": 0.1754812,
+        "cumulative_s": 0.1754812
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 556,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0023066000000000002,
+        "cumulative_s": 0.0878713
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 1,
+        "function": "<module>",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 0.00011650000000000001,
+        "cumulative_s": 0.077224
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 381,
+        "function": "_possible_target_uris",
+        "primitive_calls": 6000,
+        "calls": 6000,
+        "self_s": 0.0085894,
+        "cumulative_s": 0.07455490000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 375,
+        "function": "_target_uri",
+        "primitive_calls": 3000,
+        "calls": 3000,
+        "self_s": 0.0110475,
+        "cumulative_s": 0.06596550000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 113,
+        "function": "active",
+        "primitive_calls": 250500,
+        "calls": 250500,
+        "self_s": 0.06446990000000001,
+        "cumulative_s": 0.06446990000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 36,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0021841,
+        "cumulative_s": 0.054771700000000006
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/commands/build.py",
+        "line": 29,
+        "function": "get_context",
+        "primitive_calls": 502,
+        "calls": 502,
+        "self_s": 0.011067200000000001,
+        "cumulative_s": 0.052054600000000006
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 161,
+        "function": "_set_canonical_url",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0017584,
+        "cumulative_s": 0.042112500000000004
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 527,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0048215,
+        "cumulative_s": 0.040881400000000005
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 333,
+        "function": "run",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0174103,
+        "cumulative_s": 0.0275922
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 541,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0037333,
+        "cumulative_s": 0.010794900000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 330,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.008903900000000001,
+        "cumulative_s": 0.008903900000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 518,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0006384,
+        "cumulative_s": 0.0071986
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 342,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0007094,
+        "cumulative_s": 0.006603400000000001
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 134,
+        "function": "is_homepage",
+        "primitive_calls": 2001,
+        "calls": 2001,
+        "self_s": 0.002909,
+        "cumulative_s": 0.0053603
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 534,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0010140000000000001,
+        "cumulative_s": 0.0036716
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 118,
+        "function": "active",
+        "primitive_calls": 1500,
+        "calls": 1500,
+        "self_s": 0.0027916,
+        "cumulative_s": 0.0027916
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 563,
+        "function": "_register",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0006177,
+        "cumulative_s": 0.0027849000000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 347,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0021035000000000003,
+        "cumulative_s": 0.0021035000000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 523,
+        "function": "__init__",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0017560000000000002,
+        "cumulative_s": 0.0020288000000000003
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 125,
+        "function": "is_index",
+        "primitive_calls": 2001,
+        "calls": 2001,
+        "self_s": 0.0013808000000000002,
+        "cumulative_s": 0.0013808000000000002
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 304,
+        "function": "validate_anchor_links",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0001888,
+        "cumulative_s": 0.0001888
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 171,
+        "function": "_set_edit_url",
+        "primitive_calls": 500,
+        "calls": 500,
+        "self_s": 0.0001627,
+        "cumulative_s": 0.0001627
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 35,
+        "function": "Page",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.7800000000000004e-05,
+        "cumulative_s": 4.21e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 568,
+        "function": "_AbsoluteLinksValidationValue",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 4.6e-06,
+        "cumulative_s": 4.1e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 346,
+        "function": "_RelativePathTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 1.58e-05,
+        "cumulative_s": 1.58e-05
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 522,
+        "function": "_RawHTMLPreprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 5.9e-06,
+        "cumulative_s": 5.9e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 329,
+        "function": "_ExtractAnchorsTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.5000000000000004e-06,
+        "cumulative_s": 3.5000000000000004e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 552,
+        "function": "_ExtractTitleTreeprocessor",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 3.2000000000000003e-06,
+        "cumulative_s": 3.2000000000000003e-06
+      },
+      {
+        "file": "<EXECUCAO_LOCAL>/venv/Lib/site-packages/mkdocs/structure/pages.py",
+        "line": 540,
+        "function": "_HTMLHandler",
+        "primitive_calls": 1,
+        "calls": 1,
+        "self_s": 2.3e-06,
+        "cumulative_s": 2.3e-06
+      }
+    ],
+    "command": [
+      "<EXECUCAO_LOCAL>/venv/Scripts/python.exe",
+      "-m",
+      "cProfile",
+      "-o",
+      "<PROJETO>/resultados/principal/profiling/D.prof",
+      "-m",
+      "mkdocs",
+      "build",
+      "--clean",
+      "--strict",
+      "-f",
+      "<EXECUCAO_LOCAL>/trabalho/corpus-500/D.yml",
+      "-d",
+      "<EXECUCAO_LOCAL>/trabalho/sites/profile-D"
+    ],
+    "warning": "Tempos instrumentados de diagnóstico; não comparar diretamente com o benchmark e não somar tempos cumulativos de funções aninhadas"
+  }
+]

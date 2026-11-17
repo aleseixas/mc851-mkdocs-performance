@@ -1,0 +1,64 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "<EXECUCAO_LOCAL>/venv/Scripts/python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "processor": "AMD64 Family 26 Model 96 Stepping 0, AuthenticAMD",
+  "logical_cpus": 16,
+  "packages": {
+    "click": "8.5.1",
+    "colorama": "0.4.6",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.68.0",
+    "ghp-import": "2.1.0",
+    "Jinja2": "3.1.6",
+    "kiwisolver": "1.5.1",
+    "Markdown": "3.11.3",
+    "MarkupSafe": "3.0.4",
+    "matplotlib": "3.11.2",
+    "mergedeep": "1.3.4",
+    "mkdocs": "1.6.1",
+    "mkdocs-get-deps": "0.2.2",
+    "numpy": "2.5.5",
+    "packaging": "26.3",
+    "pathspec": "1.1.1",
+    "pillow": "13.0.0",
+    "pip": "25.0.1",
+    "platformdirs": "4.14.5",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "4.0.0",
+    "PyYAML": "6.0.3",
+    "pyyaml_env_tag": "1.1",
+    "tzdata": "2026.6",
+    "watchdog": "7.1.0"
+  },
+  "timer": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "timezone": "America/Sao_Paulo",
+  "environment_overrides": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONUTF8": "1",
+    "PYTHONPATH": "removido"
+  },
+  "hardware": {
+    "cpu": "AMD Ryzen AI 7 350 w/ Radeon 860M               ",
+    "physical_cores": 8,
+    "ram_bytes": 16418983936,
+    "power": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "battery": {
+      "BatteryStatus": 1,
+      "EstimatedChargeRemaining": 77
+    }
+  },
+  "work_dir": "<EXECUCAO_LOCAL>/trabalho",
+  "repetitions": 10,
+  "warmups_per_scenario": 1,
+  "seed": 851,
+  "benchmark_script_sha256": "e2817117f437e262ef6aa59f5ce3dc4fb3a2678116e95f8fa8078bdc77297be3",
+  "protocol": "Um processo novo por build; saída ausente e exclusiva; caches do SO não esvaziados; aquecimento descartado; sem exclusão de outliers; blocos em ordem pseudoaleatória; memória opcional não medida"
+}

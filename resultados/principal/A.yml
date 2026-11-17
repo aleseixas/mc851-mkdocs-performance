@@ -1,0 +1,14 @@
+site_name: Documentação do experimento
+site_url: https://example.org/
+docs_dir: docs
+theme:
+  name: mkdocs
+markdown_extensions:
+  - toc
+  - tables
+  - fenced_code
+plugins:
+  - search:
+      lang: [pt]
+      prebuild_index: false
+      indexing: full

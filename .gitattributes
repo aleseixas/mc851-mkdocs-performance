@@ -1,0 +1,7 @@
+# Preserva os bytes usados nos manifestos, inclusive terminações de linha.
+* -text
+*.pdf binary
+*.docx binary
+*.zip binary
+*.prof binary
+*.png binary

@@ -1,0 +1,26 @@
+{
+  "status": "aprovado",
+  "novos_benchmarks_executados": 0,
+  "medicoes_principais_preservadas": 40,
+  "aquecimentos_preservados": 4,
+  "campos_experimentais_identicos_aos_originais": true,
+  "csv_bruto_identico_byte_a_byte": true,
+  "resumos_numericos_identicos_byte_a_byte": true,
+  "perfil_funcoes_com_contadores_e_tempos_preservados": 6180,
+  "codigo_mkdocs_preservado": true,
+  "corpus_preservado": true,
+  "graficos": [
+    {
+      "arquivo": "graficos/tempos-comparativos.png",
+      "recalculo_pixel_a_pixel_identico": true
+    },
+    {
+      "arquivo": "graficos/diferencas-por-rodada.png",
+      "recalculo_pixel_a_pixel_identico": true
+    }
+  ],
+  "originais_privados_inalterados": 110,
+  "identificacao_publica": "Alexandre Adler e André Macarini, sem números de registro acadêmico",
+  "autoria_e_ia": "redação solicitada pelos autores aplicada ao README e ao relatório",
+  "escopo_da_auditoria": "Conferência local das evidências e da privacidade antes da publicação, sem executar novos benchmarks"
+}

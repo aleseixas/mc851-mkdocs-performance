@@ -1,0 +1,14 @@
+{
+  "status": "aprovado",
+  "measured_builds": 40,
+  "warmups": 4,
+  "failed_builds": 0,
+  "outliers_removed": 0,
+  "rounds_complete": 10,
+  "statistics_recomputed_from_csv": true,
+  "html_and_index_checked_every_build": true,
+  "benchmark_script_sha256_matches": true,
+  "raw_json_sha256": "d8443222dcfb95b6af1eafeded7d6c28420cc25cb18212df9cb10e3bd4370e2b",
+  "raw_csv_sha256": "79cc0903946c2a4d9883f0657675d8c382b949f6aa601981faccb91f8807ed41",
+  "memory": "Não medida; valor do lançador rejeitado no piloto"
+}

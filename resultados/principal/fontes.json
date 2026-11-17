@@ -1,0 +1,26 @@
+[
+  {
+    "path": "mkdocs/commands/build.py",
+    "official_url": "https://github.com/mkdocs/mkdocs/blob/1.6.1/mkdocs/commands/build.py",
+    "normalized_sha256": "77fb0135d13f14223066a60c5a7e0293e333d1e6a4b058cebbb6d8acf8cc3825",
+    "installed_matches_official_tag": true
+  },
+  {
+    "path": "mkdocs/structure/pages.py",
+    "official_url": "https://github.com/mkdocs/mkdocs/blob/1.6.1/mkdocs/structure/pages.py",
+    "normalized_sha256": "28cc64c2f8b85b9272d49f0f2eb263851f86ed99796f8a593b11c0c7fbd11bf2",
+    "installed_matches_official_tag": true
+  },
+  {
+    "path": "mkdocs/contrib/search/__init__.py",
+    "official_url": "https://github.com/mkdocs/mkdocs/blob/1.6.1/mkdocs/contrib/search/__init__.py",
+    "normalized_sha256": "bacd6dea5f4de9646fddbd9f073b82faa8296ef2e7299469ac537546f4546062",
+    "installed_matches_official_tag": true
+  },
+  {
+    "path": "mkdocs/contrib/search/search_index.py",
+    "official_url": "https://github.com/mkdocs/mkdocs/blob/1.6.1/mkdocs/contrib/search/search_index.py",
+    "normalized_sha256": "4a8ec7e19d707e90dc9b07c20144458e7b3cfdb4a0f7e2620d4c03e6ad2a763c",
+    "installed_matches_official_tag": true
+  }
+]

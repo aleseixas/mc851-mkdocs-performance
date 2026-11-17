@@ -1,0 +1,363 @@
+{
+  "politica": "Somente caminhos locais e metadados pessoais foram mascarados nas cópias públicas. Os originais foram preservados fora deste repositório. Nenhum benchmark foi executado nesta preparação.",
+  "marcadores": {
+    "<EXECUCAO_LOCAL>": "diretório de trabalho e ambiente virtual da execução",
+    "<PYTHON>": "instalação do interpretador",
+    "<PROJETO>": "pasta original do estudo",
+    "<REPOSITORIO_MKDOCS>": "checkout local do MkDocs",
+    "<DIRETORIO_USUARIO>": "pasta pessoal do sistema"
+  },
+  "arquivos_com_caminhos_mascarados": [
+    "resultados/principal/ambiente.json",
+    "resultados/principal/execucoes.json",
+    "resultados/principal/logs/measured-01-A.log",
+    "resultados/principal/logs/measured-01-B.log",
+    "resultados/principal/logs/measured-01-C.log",
+    "resultados/principal/logs/measured-01-D.log",
+    "resultados/principal/logs/measured-02-A.log",
+    "resultados/principal/logs/measured-02-B.log",
+    "resultados/principal/logs/measured-02-C.log",
+    "resultados/principal/logs/measured-02-D.log",
+    "resultados/principal/logs/measured-03-A.log",
+    "resultados/principal/logs/measured-03-B.log",
+    "resultados/principal/logs/measured-03-C.log",
+    "resultados/principal/logs/measured-03-D.log",
+    "resultados/principal/logs/measured-04-A.log",
+    "resultados/principal/logs/measured-04-B.log",
+    "resultados/principal/logs/measured-04-C.log",
+    "resultados/principal/logs/measured-04-D.log",
+    "resultados/principal/logs/measured-05-A.log",
+    "resultados/principal/logs/measured-05-B.log",
+    "resultados/principal/logs/measured-05-C.log",
+    "resultados/principal/logs/measured-05-D.log",
+    "resultados/principal/logs/measured-06-A.log",
+    "resultados/principal/logs/measured-06-B.log",
+    "resultados/principal/logs/measured-06-C.log",
+    "resultados/principal/logs/measured-06-D.log",
+    "resultados/principal/logs/measured-07-A.log",
+    "resultados/principal/logs/measured-07-B.log",
+    "resultados/principal/logs/measured-07-C.log",
+    "resultados/principal/logs/measured-07-D.log",
+    "resultados/principal/logs/measured-08-A.log",
+    "resultados/principal/logs/measured-08-B.log",
+    "resultados/principal/logs/measured-08-C.log",
+    "resultados/principal/logs/measured-08-D.log",
+    "resultados/principal/logs/measured-09-A.log",
+    "resultados/principal/logs/measured-09-B.log",
+    "resultados/principal/logs/measured-09-C.log",
+    "resultados/principal/logs/measured-09-D.log",
+    "resultados/principal/logs/measured-10-A.log",
+    "resultados/principal/logs/measured-10-B.log",
+    "resultados/principal/logs/measured-10-C.log",
+    "resultados/principal/logs/measured-10-D.log",
+    "resultados/principal/logs/warmup-00-A.log",
+    "resultados/principal/logs/warmup-00-B.log",
+    "resultados/principal/logs/warmup-00-C.log",
+    "resultados/principal/logs/warmup-00-D.log",
+    "resultados/principal/profiling/C.log",
+    "resultados/principal/profiling/C.prof",
+    "resultados/principal/profiling/D.log",
+    "resultados/principal/profiling/D.prof",
+    "resultados/principal/profiling/resumo-profiling.json",
+    "resultados/piloto/logs/pilot-00-A.log",
+    "resultados/piloto/logs/pilot-00-B.log",
+    "resultados/piloto/logs/pilot-00-C.log",
+    "resultados/piloto/logs/pilot-00-D.log",
+    "resultados/piloto/piloto.json"
+  ],
+  "integridade": [
+    {
+      "arquivo": "resultados/principal/ambiente.json",
+      "sha256_original": "c8da418c30e283690f985ed30c8e8d744b83bcbb510ec282b73a22647da181cc",
+      "sha256_publico": "6c733ce81bdc130cd484f833b2d88eb734be88df54558a75689df6221a3ef601"
+    },
+    {
+      "arquivo": "resultados/principal/execucoes.json",
+      "sha256_original": "54ffbcf4edc235fcffdb2c8e4a4c9d919237e142fcc01027db3a994e597557ea",
+      "sha256_publico": "d8443222dcfb95b6af1eafeded7d6c28420cc25cb18212df9cb10e3bd4370e2b"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-01-A.log",
+      "sha256_original": "9a49b4dee7f693c4377f81fb44e3f8f425f97121b26593b69c28dcc8aab9c30a",
+      "sha256_publico": "340a514427fe55397d72cca21848dc3c338427f4faa9215a321f7f9d9b18efa2"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-01-B.log",
+      "sha256_original": "c97dba0205be7295de38566d4cd8c562af5e7c4f9f0260a1f41781b6f89c457b",
+      "sha256_publico": "c7a203e08411b292cbf310136caa43e61fabc2f27063917b070bddc3041e2b46"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-01-C.log",
+      "sha256_original": "823918cd6cd8370411008b789b7b2ace94d4949154810478e1f46cfd62e23d8f",
+      "sha256_publico": "22a31bbaacf7c7edfa80b83a2ffc89530d226801213ec528e7aad9a57966fb35"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-01-D.log",
+      "sha256_original": "3d460b5ecd99a7a42a3beb8be92e5308d4ab8708da2481e64a4263cd6d1cea9d",
+      "sha256_publico": "14f095c5d86e38534fc9d6f408b1fa6fd18a583af75019d636be0f7d342abb2a"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-02-A.log",
+      "sha256_original": "0b31658e8c1c18d830b379be4453ac013e6cc131c2020e109c8072ebc1a945c1",
+      "sha256_publico": "b89c253f0dd329c3c3d24a892dbce0f9edf0acf5a9ae5aa69dc95967a4afeea3"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-02-B.log",
+      "sha256_original": "2327c95d39443507b91d56d6bd634a737f02f1aa9959b7f0c3b4e8598561e994",
+      "sha256_publico": "07c54a392ffc5e29110a4ef1f795a46406dd780ea993f621e9a268965a3403e6"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-02-C.log",
+      "sha256_original": "5ee326a607038153979d8037c2bd65f385e2ba76a1b57d12e6639cae4ed58141",
+      "sha256_publico": "d5280acde90798d182ff34eca5d39ab86201318d2ce391dbeace0dc8d000df50"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-02-D.log",
+      "sha256_original": "626c0adcb6b5f427ba492e9c35f1aed8a642ebdbf11fd5d60df820c08ee083a0",
+      "sha256_publico": "d6936d8345b7f8a39ed8f9fcaaba354c213a43999fd98009a659ae4c290717a4"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-03-A.log",
+      "sha256_original": "3eedee2cd27a890aa03e4e148c11621898f5dd956f8b64dd5b85bcb82ff15e5a",
+      "sha256_publico": "88942a57d709655648c1c86e5bf0dd108a5f4bfe9f5cf51942706e12078a12ab"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-03-B.log",
+      "sha256_original": "ef73900a85120ac9f3885592271b74471d14ba57fec9ba323c12fae212355bf7",
+      "sha256_publico": "80dafecd81ab11b7fd7d7ed79b15ed30b800baf727ebc71ccf831088a6d1edd6"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-03-C.log",
+      "sha256_original": "50c808272d2df78d27b9b81a7459ce1d20caf42d569859ea4234aaeb07dac5e5",
+      "sha256_publico": "6670e142f790ec3c91da102e242e6c48c8f1d428d517f3e647d72e42babeb2ea"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-03-D.log",
+      "sha256_original": "fecc7de5ee959a499222d4de97525c47d75b64f4321664665b254f42ae848c89",
+      "sha256_publico": "70ff0968ff501a48fd3af728c3804c766a010026f09581f033cf228c7874c9a6"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-04-A.log",
+      "sha256_original": "fab2615889b915ee7cf1c57d7bc31c2a94579bcfc16fd8fe7218a8c783e5b722",
+      "sha256_publico": "f66ffd432750dac458842910143ae1e42cd4da0f3ed6e07ec4f85c3762de8a0b"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-04-B.log",
+      "sha256_original": "5006c24de084ac1b815198af4206556379da1e54c1988231d8bc222651bdccdd",
+      "sha256_publico": "de4061a0a34d2ab70b1849e4d93af8186528e21a45e86e7278ba4fff8247b046"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-04-C.log",
+      "sha256_original": "2f42c5efb5bd73d89c08d2b131b0066de921bb6c025f6775dc2f8b065665e86e",
+      "sha256_publico": "00b27c570f18f8f818cd6162475fbcac35a97712811c399237991de86b95502a"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-04-D.log",
+      "sha256_original": "974543f91b9aa1a3b0494ad637faeff4f9562a5c457f1c4e77f59a1a0dd90523",
+      "sha256_publico": "2fd358900f09b9e3c9dc5f97aca34a73c0f7c7d3a84bcf3ed6ff9400580456ec"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-05-A.log",
+      "sha256_original": "910a1d351ec8346e06ad1b03707f0c16b341eb4639fe066c1437c5ab29032dbb",
+      "sha256_publico": "615516a6e149e23542f6a5c8e12fceecbdb6eb5d42c8def86f05190cef2a25d7"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-05-B.log",
+      "sha256_original": "cd60266078386793feb2f14f456500837aaad70c8f4f386efa0c5a0354e6fae0",
+      "sha256_publico": "bf1aa693787bdc25c2881e8cf6f6915d7e519dfbba1c64d5a4f9551af7e5d105"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-05-C.log",
+      "sha256_original": "7f6ddcc73e30cf6801d69eaafa0e09a9749d527f78584dfacce2ca7723a0cc78",
+      "sha256_publico": "6e7eb95f41b18884ed86f8ef968d84ccbd6845d4051fbe2cb69a5ed63c8d0b85"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-05-D.log",
+      "sha256_original": "30ebe272e7ba0503d0dcaf417ac609fc16e358d9d2614fa6a602b44313005071",
+      "sha256_publico": "dfc4230efb8615810b9d5bead5e2784eb11c833510724f05587287d5e3ab1711"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-06-A.log",
+      "sha256_original": "66d835c489b428da41f7c9f53acf12cbeb3737c716947f5131242395637adbce",
+      "sha256_publico": "53b5d7d8b9120e04d5de62a58de9c0b728876f5ac6f043c01b7a056cae3eac8b"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-06-B.log",
+      "sha256_original": "15ee77d86d024f80e26cc5eaaa5ac370cee751c277dd9a1990504acac9d09fe1",
+      "sha256_publico": "14624479c82522cc224a6b848fc3a968dd5a4ecec4d9404600df61082f40627b"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-06-C.log",
+      "sha256_original": "436a48e17e5c6cd2d78c0f9722615e1eb2936b63329156a93e9141b826b392ca",
+      "sha256_publico": "d29d53620b1857b5ce83408625b2df263066481d25325879ebdb55544128b3cd"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-06-D.log",
+      "sha256_original": "43f34e4ede66c30843c6ad9f7cd8de337c980418c2c03a42453a62ac65a9757a",
+      "sha256_publico": "fb9504afff93e84d6f16949f45eaa68f518cb9716f806c550de40d39c669e236"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-07-A.log",
+      "sha256_original": "c37f42b95080db9e3857b770c852433e7957dfff41707a1057810d5746410367",
+      "sha256_publico": "e2b166afd57d188824a0f96b903b830cbd44a7f35f25444a1b90cf9aa0fa0181"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-07-B.log",
+      "sha256_original": "8594c715ca855409d5f5455c2611e10177e59dcca8ae59a336f85320c53b7c7f",
+      "sha256_publico": "fc451fe8824e10d2a734be525311c9ab340276ee99cef7cbc0b41ee64a81a7d7"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-07-C.log",
+      "sha256_original": "e17a5ed3737f3f9c39523b99e181efef8269f0f590df458c486b7137fefcadb5",
+      "sha256_publico": "90df79333dbe4be0e2d6d3768fd003c67bbc7ea3a0af513a55bab6aac31e4037"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-07-D.log",
+      "sha256_original": "7641d8505ec8372b5d404005e1b01998bb6c833ffe19d76b16a364699f62afc9",
+      "sha256_publico": "4e744847559633b79c8b8bd58b0c61a472b6dd1d94a32aa4b7be7a33d4c00705"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-08-A.log",
+      "sha256_original": "a3eb33d4dd0d772d7b4d68805b72571aad8d1f98822ca79124dae31bb6f72bc9",
+      "sha256_publico": "e76968dbce2d8837f8744b21dc710d272eee9c85af42749df3b7ad90e8b08503"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-08-B.log",
+      "sha256_original": "55ff7503451fff1f8db9decd93ca5ff9fb8b7b3cce45e1642a9435bc6fe57df2",
+      "sha256_publico": "a6c3551b4d5eaf72af91c55b6f2c35d64c96bcd58290521713bec15deb7d1d63"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-08-C.log",
+      "sha256_original": "47ccc973aecdbb28d12cf7e18ed73fb7c5095113db224a2377f338694b5dfe1c",
+      "sha256_publico": "66e340ca0d7aefe198e1c4ef8a16f935a9263568cd2e406f03fc5bceae5b4257"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-08-D.log",
+      "sha256_original": "b9d9137a68e70e2bd9c38f4158206c850d6689d52acf35e62d1fb9a1db551557",
+      "sha256_publico": "3aaf9c9370180c4d22429f816016d9969bcd879b8a440763764f50ca98929993"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-09-A.log",
+      "sha256_original": "99363a4d767c8fce8826962eb8e2779aabce6f557f8a850b10a1deb917c1a7fb",
+      "sha256_publico": "734437c08cd71c30027ecf2c04bc19b2503f7cc7c7fb9ee142db6a314d05f64c"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-09-B.log",
+      "sha256_original": "46a0b88ca029b0e1ddda1aa67bc7e8fefe6c7d44ea304a42dd5db8152ca917a6",
+      "sha256_publico": "532a8a3c993972221d27588c356c484a21a8b4a45b847cb439cbb95890fcfbab"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-09-C.log",
+      "sha256_original": "4ee4644869382c65ab4f6c455d67df2674edd836b8223d17adb0a82e73a687a1",
+      "sha256_publico": "062f0d6843f6f3c7f1e47745b8f9751cc2563736e65d30f4b02ed15b08558b24"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-09-D.log",
+      "sha256_original": "f0b929a7fa512f1b5c68cca0066c8fb5d92d87d6935112feed07733d82d96076",
+      "sha256_publico": "868f136392d25de7c87a98990a87e0336d5edaae6f3e9eb837199b1c26d387ca"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-10-A.log",
+      "sha256_original": "455fb90095356f46e41c64b088484de76ef12320e9e5d93f755293704acc8c7a",
+      "sha256_publico": "5e5b6271d135aec3bd1e0b3dbdf07977f1e47069f9d2de0ea9787c671b0fcbc0"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-10-B.log",
+      "sha256_original": "cc330e63dcce9ed55892e9dea72fc16ddbffe93475e5f697bc1c9ad4815425de",
+      "sha256_publico": "bcc5c144468ec9221dbaebdd18ec0a9dd5722e27417b6ea53ab4b397336ab25c"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-10-C.log",
+      "sha256_original": "7ffd395f729549aeebd2329327fba94342e0748c447fce79adca96f0dce4d0fe",
+      "sha256_publico": "6b93a829eeb97539d076ee78433c55a3cf7370a34b3216294a067a7f3599e4d6"
+    },
+    {
+      "arquivo": "resultados/principal/logs/measured-10-D.log",
+      "sha256_original": "8a01d19e4fd7f552ae7c8f47f6f0edf5552c70b0a97a7b2fb59112ca975429bf",
+      "sha256_publico": "f49981139644f53d3f7d47cbe803a3fb4cd964926c475db39062b712f61ef227"
+    },
+    {
+      "arquivo": "resultados/principal/logs/warmup-00-A.log",
+      "sha256_original": "9d3add1aede2a9883a6551bc77561a5e1da453863c47e3ec29b2334a28c766aa",
+      "sha256_publico": "0ecd0083aef37b85ca440fbadba7a991723a704125f1a0bf6147415e14770858"
+    },
+    {
+      "arquivo": "resultados/principal/logs/warmup-00-B.log",
+      "sha256_original": "eb5f6b137c34f0b5946ea46f7ddd5310601fcd5dabd8d7eafe0f36b425db6761",
+      "sha256_publico": "a075a38f0cfb3e5a0ff66f93b949ded46ca1b876f99797e82930117f5f8e61b4"
+    },
+    {
+      "arquivo": "resultados/principal/logs/warmup-00-C.log",
+      "sha256_original": "be325529673cbd1b5b79e5f494c3804ff852bef303f6805eb09af421e7772352",
+      "sha256_publico": "77f3edbb9a6f206056c33e8fb2d27787146d8e4fcc5554ea2c83ed79ebd0b229"
+    },
+    {
+      "arquivo": "resultados/principal/logs/warmup-00-D.log",
+      "sha256_original": "691146cb3ec61e28dbd3d4a52b552aab64ace9fb8d281be2b31b1c046101bb63",
+      "sha256_publico": "7de3ff302254f5155e78586add47b8d4632239f508e18893fa9b345cb46fa5da"
+    },
+    {
+      "arquivo": "resultados/principal/profiling/C.log",
+      "sha256_original": "6814adc2d89acb8fa6f9f50b49e62c3c6f46948a2d235c7eac8c4db815387f51",
+      "sha256_publico": "e503128f24a10826175a9998475f2aa7fb3ce56fb63222347832fdd2602d083e"
+    },
+    {
+      "arquivo": "resultados/principal/profiling/C.prof",
+      "sha256_original": "8b714617123da5555a3b61e0c88d50cbe1e0dcc37ee2e181196ca68ddba67d99",
+      "sha256_publico": "838aa94fa8ccf5cebe7b7e38c399122e6cc0c8eccdbe4caf395d6b025c0cc764"
+    },
+    {
+      "arquivo": "resultados/principal/profiling/D.log",
+      "sha256_original": "fe4be29e11911322566a9c23ef292879aa8e4415e932ad4183761500c8214f30",
+      "sha256_publico": "788479385e13933dc623638fe7f733206f122ce08a9d33775ab78e0913558c04"
+    },
+    {
+      "arquivo": "resultados/principal/profiling/D.prof",
+      "sha256_original": "5f4402b70bf2625ffbef6347d396023a9b5d4af69e0d347a7e8f0858b39534bd",
+      "sha256_publico": "4eacb1817a9ac4e130eb50ebdfa6c18ee3dd4c603794ced9bf7aa7b06a8070a8"
+    },
+    {
+      "arquivo": "resultados/principal/profiling/resumo-profiling.json",
+      "sha256_original": "3fb80550636740baefa61658073a005a45613c7dfaaa26e337bae411870404f5",
+      "sha256_publico": "53d051f8b0dc745fd6c2d3d3007c9416446ee5d9ce0ae1272709ca1521d59fc6"
+    },
+    {
+      "arquivo": "resultados/piloto/logs/pilot-00-A.log",
+      "sha256_original": "00c57e6a187f200f622b2847c911232f2b779ee3136dcc7afed372c348cecbf6",
+      "sha256_publico": "0087c915c1b781eee896654489045a9228d9bad0f9f351ef77e9dd886158dc9a"
+    },
+    {
+      "arquivo": "resultados/piloto/logs/pilot-00-B.log",
+      "sha256_original": "4fc85e45c20cff346f2d2fca530795ece2ca85cd61b05b898596df3f168a5262",
+      "sha256_publico": "5d14fe0ca63d51f76554dc2b68f4271f5fe2401926a933ecddc7f3b6ba4da5e0"
+    },
+    {
+      "arquivo": "resultados/piloto/logs/pilot-00-C.log",
+      "sha256_original": "8f7d4c9b0f12448ba374b4d4ee1ad0b6dc446498d3c29b1e7e97c0e799324678",
+      "sha256_publico": "ba48df3f56473f0e53c3217d00e9283d2b97a809643ef9338e3483318531c06f"
+    },
+    {
+      "arquivo": "resultados/piloto/logs/pilot-00-D.log",
+      "sha256_original": "cbf52a5517e4d110dea1bbee548c44c161a724c5c38bd1af40895e38850784e2",
+      "sha256_publico": "0ccec2d166336ad65cba7f0608b20f1951e67141bc69cc6314700ed04c9a1a88"
+    },
+    {
+      "arquivo": "resultados/piloto/piloto.json",
+      "sha256_original": "c41ba5a96aa3a182ab67224972d5fc5737005d3e4f24a253ceaa82ef277f9b8c",
+      "sha256_publico": "ae6003dd632307bfd73641e909f8285c3de1009dc4e46eb0a0136faa014ad05d"
+    },
+    {
+      "arquivo": "resultados/principal/validacao.json",
+      "sha256_original": "46fe01a8a97e5836c9249c7afce8123decf2361fcd555f5cef96f7f33985bdc1",
+      "sha256_publico": "c238254c1e1a18bfe678842183ef94e2fab07a8aee943ebf59e8a11578e65861",
+      "motivo": "Hashes dos registros públicos recalculados após mascarar caminhos; estatísticas mantidas"
+    }
+  ],
+  "medicoes_preservadas": 40,
+  "campos_experimentais": "cenário, páginas, estado da busca, rodada, ordem, tempo externo, tempo interno, horário, retorno, contagens e tamanhos de saída preservados",
+  "perfil_prof": "Apenas strings de caminhos foram substituídas no arquivo marshal; chamadas, tempos, linhas, funções e relações de chamada foram preservados.",
+  "sha256_campos_experimentais_preservados": "c2e4697943c35bd1e2a6b355041f1e8ef1e9226fd2b603f81595d897dc232fe2",
+  "metadados_recalculados": [
+    "resultados/principal/validacao.json"
+  ]
+}
